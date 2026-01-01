@@ -2,19 +2,16 @@ const strongEle = document.querySelectorAll("strong");
 function highlight() {
     //Write your code here
 
-strongEle.forEach(ele=>{
-	
-	ele.style.color=rgb(0,128,0)
-})
+ strongEle.forEach(ele=>{
+	ele.style.color="rgb(0,128,0)"
+ })
 }
 
 
 function return_normal() {
     //Write your code here
-strongEle.forEach(ele=>{
+  strongEle.forEach(ele=>{
 	
-	ele.style.color=rgb(0,128,0)
-})
-
-    
+	ele.style.color="rgb(0,0,0)"
+  })
 }
